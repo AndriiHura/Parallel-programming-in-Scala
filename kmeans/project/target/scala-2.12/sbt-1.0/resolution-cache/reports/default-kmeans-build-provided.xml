@@ -9,7 +9,7 @@
 		extra-sbtVersion="1.0"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20200816192222"/>
+		date="20200816225233"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="1.2.8" status="release" pubdate="20181229072743" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
@@ -408,6 +408,7 @@
 				<metadata-artifact status="no" details="" size="2785" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.pom"/>
 				<evicted-by rev="1.0.5"/>
 				<caller organisation="org.scala-sbt" name="util-scripted_2.12" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="zinc-compile-core_2.12" conf="compile, runtime" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="1.2.5"/>
 				<caller organisation="com.typesafe" name="ssl-config-core_2.12" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.2.2"/>
 				<artifacts>
 				</artifacts>
@@ -433,123 +434,6 @@
 			<revision name="1.2.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
 				<evicted-by rev="1.2.4"/>
 				<caller organisation="org.scala-sbt" name="zinc-ivy-integration_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
-				<artifacts>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.scala-sbt" name="util-cache_2.12">
-			<revision name="1.2.2" status="release" pubdate="20180829212412" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
-				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="no" details="" size="3374" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-cache_2.12/ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.2.2/util-cache_2.12-1.2.2.pom"/>
-				<evicted-by rev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="task-system_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="util-tracking_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
-				<artifacts>
-				</artifacts>
-			</revision>
-			<revision name="1.2.4" status="release" pubdate="20181130071425" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="32">
-				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="no" details="" size="3212" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-cache_2.12/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.2.4/util-cache_2.12-1.2.4.pom"/>
-				<caller organisation="org.scala-sbt" name="task-system_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="util-tracking_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="main-settings_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<artifacts>
-					<artifact name="util-cache_2.12" type="jar" ext="jar" status="no" details="" size="200020" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-cache_2.12/jars/util-cache_2.12-1.2.4.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.2.4/util-cache_2.12-1.2.4.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.scala-sbt" name="util-position_2.12">
-			<revision name="1.2.2" status="release" pubdate="20180829212401" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
-				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="no" details="" size="2930" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-position_2.12/ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.2.2/util-position_2.12-1.2.2.pom"/>
-				<evicted-by rev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="collections_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
-				<artifacts>
-				</artifacts>
-			</revision>
-			<revision name="1.2.4" status="release" pubdate="20181130071421" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="9">
-				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="no" details="" size="2786" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-position_2.12/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.2.4/util-position_2.12-1.2.4.pom"/>
-				<caller organisation="org.scala-sbt" name="collections_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
-				<artifacts>
-					<artifact name="util-position_2.12" type="jar" ext="jar" status="no" details="" size="26689" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-position_2.12/jars/util-position_2.12-1.2.4.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.2.4/util-position_2.12-1.2.4.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.scala-sbt" name="io_2.12">
-			<revision name="1.2.1" status="release" pubdate="20180806215954" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://github.com/sbt/io" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
-				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="no" details="" size="3442" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/io_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.1/io_2.12-1.2.1.pom"/>
-				<evicted-by rev="1.2.2"/>
-				<caller organisation="org.scala-sbt" name="task-system_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="util-cache_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="testing_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="zinc-classpath_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="util-tracking_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="zinc-classfile_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="main_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="completion_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="null, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="actions_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="run_2.12" conf="null, compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<artifacts>
-				</artifacts>
-			</revision>
-			<revision name="1.2.2" status="release" pubdate="20181005050811" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/io" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="15">
-				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="no" details="" size="3274" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/io_2.12/ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.2/io_2.12-1.2.2.pom"/>
-				<caller organisation="org.scala-sbt" name="util-cache_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="testing_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="util-tracking_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="zinc-classfile_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="actions_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="zinc-compile-core_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="command_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="scripted-sbt-redux_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="main-settings_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="task-system_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="zinc-classpath_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="main_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="completion_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="util-scripted_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="null, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="zinc-core_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="run_2.12" conf="null, compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<artifacts>
-					<artifact name="io_2.12" type="jar" ext="jar" status="no" details="" size="314296" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/io_2.12/jars/io_2.12-1.2.2.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.2/io_2.12-1.2.2.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-			<revision name="1.2.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
-				<evicted-by rev="1.2.2"/>
-				<caller organisation="org.scala-sbt" name="util-cache_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="testing_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="util-tracking_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="zinc-classfile_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="actions_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="zinc-compile-core_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="command_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="main-settings_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="task-system_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="zinc-classpath_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="main_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="completion_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="util-scripted_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="null, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="zinc-core_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="run_2.12" conf="null, compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
 				<artifacts>
 				</artifacts>
 			</revision>
@@ -726,47 +610,6 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.scala-sbt" name="util-logging_2.12">
-			<revision name="1.2.2" status="release" pubdate="20180829212414" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
-				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="no" details="" size="4215" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-logging_2.12/ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.2/util-logging_2.12-1.2.2.pom"/>
-				<evicted-by rev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="task-system_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="testing_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="zinc-classfile_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="main_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="actions_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="zinc-compile-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="zinc-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="run_2.12" conf="null, compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<artifacts>
-				</artifacts>
-			</revision>
-			<revision name="1.2.4" status="release" pubdate="20181130071413" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="21">
-				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="no" details="" size="4019" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-logging_2.12/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.4/util-logging_2.12-1.2.4.pom"/>
-				<caller organisation="org.scala-sbt" name="testing_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="zinc-classfile_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="actions_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="zinc-compile-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="command_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="scripted-sbt-redux_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="main-settings_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="task-system_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="protocol_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="main_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="util-scripted_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="zinc-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="run_2.12" conf="null, compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
-				<artifacts>
-					<artifact name="util-logging_2.12" type="jar" ext="jar" status="no" details="" size="247949" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-logging_2.12/jars/util-logging_2.12-1.2.4.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.4/util-logging_2.12-1.2.4.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="org.scala-sbt" name="compiler-bridge_2.12">
 			<revision name="1.2.5" status="release" pubdate="20181130080804" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/zinc" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="40">
 				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
@@ -827,13 +670,14 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="1.0.0" status="release" pubdate="20150817214630" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://scala-sbt.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
-				<license name="BSD" url="http://opensource.org/licenses/BSD-2-Clause"/>
-				<metadata-artifact status="no" details="" size="2504" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/launcher-interface/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom"/>
+			<revision name="1.0.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
 				<evicted-by rev="1.0.4"/>
+				<caller organisation="org.scala-sbt" name="testing_2.12" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="zinc-classpath_2.12" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="main_2.12" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.2.4"/>
 				<caller organisation="org.scala-sbt" name="zinc-compile-core_2.12" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="command_2.12" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.2.8"/>
 				<artifacts>
 				</artifacts>
 			</revision>
@@ -873,6 +717,27 @@
 					<artifact name="task-system_2.12" type="jar" ext="jar" status="no" details="" size="109297" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/task-system_2.12/jars/task-system_2.12-1.2.8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.2.8/task-system_2.12-1.2.8.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="util-cache_2.12">
+			<revision name="1.2.4" status="release" pubdate="20181130071425" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="32">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3212" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-cache_2.12/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.2.4/util-cache_2.12-1.2.4.pom"/>
+				<caller organisation="org.scala-sbt" name="task-system_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="util-tracking_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="main-settings_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
+				<artifacts>
+					<artifact name="util-cache_2.12" type="jar" ext="jar" status="no" details="" size="200020" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-cache_2.12/jars/util-cache_2.12-1.2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.2.4/util-cache_2.12-1.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.2.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
@@ -923,7 +788,7 @@
 				<caller organisation="org.scala-sbt" name="zinc-compile-core_2.12" conf="compile, runtime" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="1.2.5"/>
 				<caller organisation="org.scala-sbt" name="zinc-core_2.12" conf="compile, runtime" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="1.2.5"/>
 				<caller organisation="org.scala-sbt" name="command_2.12" conf="compile, runtime" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="run_2.12" conf="null, compile, runtime" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="run_2.12" conf="compile, runtime" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="main-settings_2.12" conf="compile, runtime" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="1.2.8"/>
 				<artifacts>
 					<artifact name="zinc-classpath_2.12" type="jar" ext="jar" status="no" details="" size="73926" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/zinc-classpath_2.12/jars/zinc-classpath_2.12-1.2.5.jar">
@@ -954,26 +819,37 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.scala-sbt" name="util-interface">
-			<revision name="1.2.2" status="release" pubdate="20180829212432" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+		<module organisation="org.scala-sbt" name="util-logging_2.12">
+			<revision name="1.2.4" status="release" pubdate="20181130071413" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="21">
 				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="no" details="" size="2472" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-interface/ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2.pom"/>
-				<evicted-by rev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="compiler-interface" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="null, compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.4"/>
+				<metadata-artifact status="no" details="" size="4019" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-logging_2.12/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.4/util-logging_2.12-1.2.4.pom"/>
+				<caller organisation="org.scala-sbt" name="testing_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="zinc-classfile_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="actions_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="zinc-compile-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="command_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="scripted-sbt-redux_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="main-settings_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="task-system_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="protocol_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="main_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="util-scripted_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="zinc-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="run_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
 				<artifacts>
+					<artifact name="util-logging_2.12" type="jar" ext="jar" status="no" details="" size="247949" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-logging_2.12/jars/util-logging_2.12-1.2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.4/util-logging_2.12-1.2.4.jar"/>
+					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="1.2.4" status="release" pubdate="20181130071412" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="22">
-				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
-				<metadata-artifact status="no" details="" size="2346" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-interface/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.4/util-interface-1.2.4.pom"/>
-				<caller organisation="org.scala-sbt" name="compiler-interface" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="util-scripted_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="null, compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.4"/>
+			<revision name="1.2.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="zinc-classfile_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="zinc-compile-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="zinc-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
 				<artifacts>
-					<artifact name="util-interface" type="jar" ext="jar" status="no" details="" size="2573" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-interface/jars/util-interface-1.2.4.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.4/util-interface-1.2.4.jar"/>
-					</artifact>
 				</artifacts>
 			</revision>
 		</module>
@@ -982,7 +858,7 @@
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="43584" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1.pom"/>
 				<caller organisation="org.scala-sbt" name="main_2.12" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="null, compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.2.4"/>
 				<caller organisation="org.apache.logging.log4j" name="log4j-slf4j-impl" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
 				<artifacts>
 					<artifact name="log4j-core" type="jar" ext="jar" status="no" details="" size="1607947" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.apache.logging.log4j/log4j-core/jars/log4j-core-2.11.1.jar">
@@ -1013,7 +889,7 @@
 			<revision name="3.4.2" status="release" pubdate="20180409004110" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://lmax-exchange.github.com/disruptor" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="25">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2537" time="0" location="/Users/oscarteeninga/.ivy2/cache/com.lmax/disruptor/ivy-3.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.pom"/>
-				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="null, compile, runtime" rev="3.4.2" rev-constraint-default="3.4.2" rev-constraint-dynamic="3.4.2" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="3.4.2" rev-constraint-default="3.4.2" rev-constraint-dynamic="3.4.2" callerrev="1.2.4"/>
 				<artifacts>
 					<artifact name="disruptor" type="jar" ext="jar" status="no" details="" size="83064" time="0" location="/Users/oscarteeninga/.ivy2/cache/com.lmax/disruptor/jars/disruptor-3.4.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar"/>
@@ -1026,11 +902,31 @@
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="38373" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.pom"/>
 				<caller organisation="org.scala-sbt" name="main_2.12" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="null, compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.2.4"/>
 				<artifacts>
 					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="264060" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.11.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="util-interface">
+			<revision name="1.2.4" status="release" pubdate="20181130071412" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="22">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2346" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-interface/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.4/util-interface-1.2.4.pom"/>
+				<caller organisation="org.scala-sbt" name="compiler-interface" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="util-scripted_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.4"/>
+				<artifacts>
+					<artifact name="util-interface" type="jar" ext="jar" status="no" details="" size="2573" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-interface/jars/util-interface-1.2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.4/util-interface-1.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.2.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="compiler-interface" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
@@ -1055,7 +951,7 @@
 				<caller organisation="org.scala-sbt" name="completion_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="tasks_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="zinc-compile-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="run_2.12" conf="null, compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="run_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
 				<artifacts>
 					<artifact name="util-control_2.12" type="jar" ext="jar" status="no" details="" size="12586" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-control_2.12/jars/util-control_2.12-1.2.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.2.4/util-control_2.12-1.2.4.jar"/>
@@ -1065,6 +961,54 @@
 			<revision name="1.2.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
 				<evicted-by rev="1.2.4"/>
 				<caller organisation="org.scala-sbt" name="zinc-compile-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.5"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="io_2.12">
+			<revision name="1.2.2" status="release" pubdate="20181005050811" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/io" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="15">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3274" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/io_2.12/ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.2/io_2.12-1.2.2.pom"/>
+				<caller organisation="org.scala-sbt" name="util-cache_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="testing_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="util-tracking_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="zinc-classfile_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="actions_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="zinc-compile-core_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="command_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="scripted-sbt-redux_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="main-settings_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="task-system_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="zinc-classpath_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="main_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="completion_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="util-scripted_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="zinc-core_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="run_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.8"/>
+				<artifacts>
+					<artifact name="io_2.12" type="jar" ext="jar" status="no" details="" size="314296" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/io_2.12/jars/io_2.12-1.2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.2/io_2.12-1.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.2.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.2.2"/>
+				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.2.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.2.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.2.2"/>
+				<caller organisation="org.scala-sbt" name="util-cache_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="zinc-classpath_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="util-tracking_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="zinc-classfile_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="util-scripted_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="zinc-compile-core_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
+				<caller organisation="org.scala-sbt" name="zinc-core_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.5"/>
 				<artifacts>
 				</artifacts>
 			</revision>
@@ -1115,7 +1059,7 @@
 				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
 				<metadata-artifact status="no" details="" size="5033" time="0" location="/Users/oscarteeninga/.ivy2/cache/jline/jline/ivy-2.14.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.pom"/>
 				<caller organisation="org.scala-sbt" name="completion_2.12" conf="compile, runtime" rev="2.14.6" rev-constraint-default="2.14.6" rev-constraint-dynamic="2.14.6" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="null, compile, runtime" rev="2.14.6" rev-constraint-default="2.14.6" rev-constraint-dynamic="2.14.6" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="2.14.6" rev-constraint-default="2.14.6" rev-constraint-dynamic="2.14.6" callerrev="1.2.4"/>
 				<artifacts>
 					<artifact name="jline" type="jar" ext="jar" status="no" details="" size="268780" time="0" location="/Users/oscarteeninga/.ivy2/cache/jline/jline/jars/jline-2.14.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar"/>
@@ -1167,11 +1111,30 @@
 				<caller organisation="org.scala-sbt" name="main_2.12" conf="compile, runtime" rev="1.2.8" rev-constraint-default="1.2.8" rev-constraint-dynamic="1.2.8" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="completion_2.12" conf="compile, runtime" rev="1.2.8" rev-constraint-default="1.2.8" rev-constraint-dynamic="1.2.8" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="tasks_2.12" conf="compile, runtime" rev="1.2.8" rev-constraint-default="1.2.8" rev-constraint-dynamic="1.2.8" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="run_2.12" conf="null, compile, runtime" rev="1.2.8" rev-constraint-default="1.2.8" rev-constraint-dynamic="1.2.8" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="run_2.12" conf="compile, runtime" rev="1.2.8" rev-constraint-default="1.2.8" rev-constraint-dynamic="1.2.8" callerrev="1.2.8"/>
 				<artifacts>
 					<artifact name="collections_2.12" type="jar" ext="jar" status="no" details="" size="327287" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/collections_2.12/jars/collections_2.12-1.2.8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.2.8/collections_2.12-1.2.8.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="util-position_2.12">
+			<revision name="1.2.4" status="release" pubdate="20181130071421" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="9">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2786" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-position_2.12/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.2.4/util-position_2.12-1.2.4.pom"/>
+				<caller organisation="org.scala-sbt" name="collections_2.12" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
+				<artifacts>
+					<artifact name="util-position_2.12" type="jar" ext="jar" status="no" details="" size="26689" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-sbt/util-position_2.12/jars/util-position_2.12-1.2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.2.4/util-position_2.12-1.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.2.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.4"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
@@ -1180,7 +1143,7 @@
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2637" time="0" location="/Users/oscarteeninga/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7.pom"/>
 				<caller organisation="org.scala-sbt" name="util-cache_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.4"/>
-				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="null, compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.4"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.12.7"/>
 				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.4"/>
 				<caller organisation="org.scala-sbt" name="util-position_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.4"/>
@@ -1200,7 +1163,7 @@
 				<caller organisation="org.scala-sbt" name="testing_2.12" conf="compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="protocol_2.12" conf="compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="collections_2.12" conf="compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="null, compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.2.4"/>
 				<caller organisation="org.scala-sbt" name="actions_2.12" conf="compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="command_2.12" conf="compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.2.8"/>
 				<artifacts>
@@ -1241,7 +1204,7 @@
 				<caller organisation="org.scala-sbt" name="testing_2.12" conf="compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="protocol_2.12" conf="compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.2.8"/>
 				<caller organisation="com.eed3si9n" name="sjson-new-scalajson_2.12" conf="compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="0.8.2"/>
-				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="null, compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.2.4"/>
 				<caller organisation="org.scala-sbt" name="librarymanagement-core_2.12" conf="compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.2.4"/>
 				<caller organisation="org.scala-sbt" name="librarymanagement-ivy_2.12" conf="compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.2.4"/>
 				<caller organisation="com.eed3si9n" name="sjson-new-murmurhash_2.12" conf="compile, runtime" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="0.8.2"/>
@@ -1271,7 +1234,7 @@
 				<caller organisation="org.scala-sbt" name="util-relation_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.4"/>
 				<caller organisation="com.eed3si9n" name="sjson-new-murmurhash_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.8.2"/>
 				<caller organisation="org.scala-sbt" name="zinc-core_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.5"/>
-				<caller organisation="org.scala-sbt" name="run_2.12" conf="null, compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.8"/>
+				<caller organisation="org.scala-sbt" name="run_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.8"/>
 				<caller organisation="com.eed3si9n" name="sjson-new-core_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.8.2"/>
 				<caller organisation="org.scala-sbt" name="testing_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.8"/>
 				<caller organisation="org.scala-sbt" name="zinc-classfile_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.5"/>
@@ -1309,7 +1272,7 @@
 				<caller organisation="org.scala-sbt" name="zinc_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.5"/>
 				<caller organisation="default" name="kmeans-build" conf="provided" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.1.0-SNAPSHOT"/>
 				<caller organisation="org.scala-sbt" name="scripted-plugin_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.8"/>
-				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="null, compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.4"/>
+				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.4"/>
 				<caller organisation="com.eed3si9n" name="shaded-scalajson_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.0.0-M4"/>
 				<caller organisation="org.scala-sbt" name="util-control_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.4"/>
 				<caller organisation="com.lihaoyi" name="fastparse-utils_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.4.2"/>
