@@ -1,0 +1,213 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/parprog1-reductions-without-resources_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSight 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSight 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChange 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChange 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Node$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Node$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Tree 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Tree 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Node$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Node$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/CourseReduce$Leaf$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/CourseReduce$Leaf$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChangeRunner 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChangeRunner 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSightRunner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSightRunner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChangeRunner$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChangeRunner$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Node 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Node 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSightInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSightInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Tree 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Tree 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChange 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChange 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSight 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSight 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSightRunner 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSightRunner 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Node$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Node$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Tree 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Tree 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelParenthesesBalancingRunner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelParenthesesBalancingRunner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSight 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSight 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/CourseReduce$Tree.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/CourseReduce$Tree.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSight.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSight.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChange 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChange 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChangeRunner$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChangeRunner$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChangeRunner 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChangeRunner 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelParenthesesBalancingRunner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelParenthesesBalancingRunner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Node 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Node 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSightRunner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSightRunner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChangeRunner$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChangeRunner$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSightRunner 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSightRunner 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/CourseReduce$Leaf.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/CourseReduce$Leaf.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Node$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Node$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/CourseTree$Node.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/CourseTree$Node.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelParenthesesBalancing.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelParenthesesBalancing.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Node 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Node 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChangeRunner$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChangeRunner$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChangeRunner 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChangeRunner 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChangeRunner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChangeRunner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/CourseTree$Node$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/CourseTree$Node$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSightRunner 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSightRunner 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/package$TaskScheduler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/package$TaskScheduler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Tree 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Tree 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Node$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Node$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSightRunner 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSightRunner 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSight 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSight 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChange 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChange 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChangeRunner 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChangeRunner 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChangeRunner$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChangeRunner$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Node 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Node 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/CourseTree$Tree.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/CourseTree$Tree.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSightRunner 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSightRunner 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/CourseReduce$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/CourseReduce$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSight 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSight 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/CourseTree$Leaf.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/CourseTree$Leaf.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChange 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChange 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/CourseReduce$Node.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/CourseReduce$Node.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Node$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Node$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Tree 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Tree 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Node 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Node 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChangeRunner 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChangeRunner 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Leaf 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Leaf 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/CourseReduce.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/CourseReduce.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSight$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSight$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChange$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChange$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/CourseTree$Leaf$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/CourseTree$Leaf$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Leaf$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Leaf$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSightRunner$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSightRunner$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChange$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChange$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSight$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSight$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChangeRunner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChangeRunner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/CourseTree$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/CourseTree$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChange$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChange$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Leaf 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Leaf 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Leaf$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Leaf$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSightRunner$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSightRunner$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Leaf.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Leaf.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Tree.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Tree.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSight$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSight$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChange$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChange$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Leaf$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Leaf$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Leaf 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Leaf 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelParenthesesBalancing$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelParenthesesBalancing$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/CourseReduce$Node$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/CourseReduce$Node$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSight$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSight$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Leaf$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Leaf$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChange$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChange$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChangeInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChangeInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSight$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSight$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Leaf 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Leaf 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Leaf$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Leaf$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSightRunner$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSightRunner$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/package$DefaultTaskScheduler$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/package$DefaultTaskScheduler$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSightRunner$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSightRunner$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChange.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChange.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelParenthesesBalancingInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelParenthesesBalancingInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Node.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Node.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSight$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSight$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/CourseTree.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/CourseTree.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Leaf 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Leaf 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/package$DefaultTaskScheduler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/package$DefaultTaskScheduler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/ParallelCountChange$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/ParallelCountChange$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/Leaf$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/Leaf$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	reductions/LineOfSightRunner$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/oscarteeninga/Documents/Extra/Scala/Parallel-programming-in-Scala/reductions/target/scala-2.13/classes/reductions/LineOfSightRunner$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
