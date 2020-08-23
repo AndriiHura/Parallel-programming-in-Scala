@@ -58,17 +58,19 @@ package object barneshut {
   ) extends Quad {
     val centerX: Float = (nw.centerX + ne.centerX)/2
     val centerY: Float = (nw.centerY + sw.centerY)/2
-    val size: Float = nw.size + ne.size
+    val size: Float = nw.size * 2
     val mass: Float = nw.mass + ne.mass + sw.mass + se.mass
-    val massX: Float = (nw.mass * nw.massX + ne.mass * ne.massX + sw.mass * sw.massX + se.mass * se.massX) / mass
-    val massY: Float = (nw.mass * nw.massY + ne.mass * ne.massY + sw.mass * sw.massY + se.mass * se.massY) / mass
+    val massX: Float = if (mass == 0) centerX else (nw.mass * nw.massX + ne.mass * ne.massX + sw.mass * sw.massX + se.mass * se.massX) / mass
+    val massY: Float = if (mass == 0) centerY else (nw.mass * nw.massY + ne.mass * ne.massY + sw.mass * sw.massY + se.mass * se.massY) / mass
     val total: Int = nw.total + ne.total + sw.total + se.total
 
     def insert(b: Body): Fork = {
-      if (b.x > centerX)
-        if (b.y > centerY) Fork(nw.insert(b), ne, sw, se) else Fork(nw, ne, sw.insert(b), se)
-      else
-        if (b.y > centerY) Fork(nw, ne.insert(b), sw, se) else Fork(nw, ne, sw, se.insert(b))
+      (b.x > centerX, b.y > centerY) match {
+        case (false, false) => Fork(nw.insert(b), ne, sw, se)
+        case (true, false)  => Fork(nw, ne.insert(b), sw, se)
+        case (false, true)  => Fork(nw, ne, sw.insert(b), se)
+        case (true, true)   => Fork(nw, ne, sw, se.insert(b))
+      }
     }
   }
 
@@ -78,13 +80,16 @@ package object barneshut {
     val total: Int = bodies.size
     def insert(b: Body): Quad =
       if (size > minimumSize) {
-        Fork(
-          Empty(centerX - size/2, centerY - size/2, size/2),
-          Empty(centerX + size/2, centerY - size/2, size/2),
-          Empty(centerX - size/2, centerY + size/2, size/2),
-          Empty(centerX + size/2, centerY + size/2, size/2))
+        (b +: bodies).foldLeft(
+          Fork(
+            Empty(centerX - size / 4, centerY - size / 4, size / 2),
+            Empty(centerX + size / 4, centerY - size / 4, size / 2),
+            Empty(centerX - size / 4, centerY + size / 4, size / 2),
+            Empty(centerX + size / 4, centerY + size / 4, size / 2)
+          )
+        )((fork, b) => fork.insert(b))
       } else {
-        Leaf(centerX, centerY, size, b :: bodies.toList)
+        Leaf(centerX, centerY, size, b +: bodies)
       }
   }
 
@@ -138,11 +143,14 @@ package object barneshut {
         case Leaf(_, _, _, bodies) => bodies.foreach(b => addForce(b.mass, b.x, b.y))
         // add force contribution of each body by calling addForce
         case Fork(nw, ne, sw, se) =>
-          if (distance(x, y, quad.centerX, quad.centerY) < quad.size/2)
-            if (distance(x, y, nw.centerX, nw.centerY) < nw.size/2) traverse(nw)
-            else if (distance(x, y, ne.centerX, ne.centerY) < ne.size/2) traverse(ne)
-            else if (distance(x, y, sw.centerX, sw.centerY) < sw.size/2) traverse(sw)
-            else traverse(se)
+          if(quad.size / distance(x, y, quad.massX, quad.massY) < theta){
+            addForce(quad.mass, quad.massX, quad.massY)
+          } else {
+            traverse(nw)
+            traverse(ne)
+            traverse(sw)
+            traverse(se)
+          }
         // see if node is far enough from the body,
         // or recursion is needed
       }
@@ -168,26 +176,16 @@ package object barneshut {
 
     def +=(b: Body): SectorMatrix = {
 
-      def getIndex: Int = {
-        val x = Math.min(Math.max(boundaries.minX, b.x), Math.min(boundaries.maxX, b.x))
-        val x_idx = ((sectorPrecision * x) / boundaries.size).toInt
-
-        val y = Math.min(Math.max(boundaries.minY, b.y), Math.min(boundaries.maxY, b.y))
-        val y_idx = ((sectorPrecision * y) / boundaries.size).toInt
-
-        x_idx + y_idx * sectorPrecision
-      }
-
-      matrix(getIndex) += b
+      val x = math.min(math.max(boundaries.minX, b.x), boundaries.maxX)
+      val y = math.min(math.max(boundaries.minY, b.y), boundaries.maxY)
+      apply(((x - boundaries.minX) / sectorSize).toInt, ((y - boundaries.minY) / sectorSize).toInt) += b
       this
     }
 
     def apply(x: Int, y: Int): ConcBuffer[Body] = matrix(y * sectorPrecision + x)
 
     def combine(that: SectorMatrix): SectorMatrix = {
-      for (i <- matrix.indices) {
-         that.matrix(i).foreach(b =>this.matrix(i) += b)
-      }
+      for (i <- matrix.indices) matrix(i) = matrix(i).combine(that.matrix(i))
       this
     }
 
